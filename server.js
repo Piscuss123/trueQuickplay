@@ -1,5 +1,4 @@
 
-dotenv.config();
 
 app.use(cors({
   origin: ['http://localhost:3000', 'https://Piscuss123.github.io'],
