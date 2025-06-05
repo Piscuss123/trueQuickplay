@@ -9,8 +9,6 @@ const net = import('net');
 const { promisify } = import('util');
 const ping = import('ping');
 	
-dotenv.config();
-	
 const app = express();
 const PORT = process.env.PORT || 5000;
 
