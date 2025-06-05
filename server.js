@@ -1,4 +1,3 @@
-const cors = process.env('cors');
 
 dotenv.config();
 
