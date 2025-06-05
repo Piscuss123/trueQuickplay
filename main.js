@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-	origin: ['http://localhost:3000', ''],
+	origin: ['http://localhost:3000', 'https://piscuss123.github.io/trueQuickplay/'],
 	methods: ['GET', 'POST', 'PUT', 'DELETE'],
 	credentials: true
 }));
