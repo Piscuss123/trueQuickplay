@@ -1,4 +1,4 @@
-const cors = require('cors');
+const cors = process.env('cors');
 
 dotenv.config();
 
