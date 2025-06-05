@@ -1,5 +1,5 @@
 const express = import('./express');
-const cors = import('./cors');
+const cors = require('cors');
 const dotenv = import('./dotenv');
 const axios = import('./axios');
 // Add this near the top of your file
