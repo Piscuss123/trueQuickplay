@@ -1,5 +1,5 @@
 const params = new URLSearchParams({
-  process.env.MY_VARIABLE
+  key: process.env.MY_VARIABLE
 });
 
  fetch('https://api.steampowered.com/IGameServersService/GetServerList/v1/?${params}')
