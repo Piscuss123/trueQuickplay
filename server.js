@@ -3,7 +3,7 @@ const cors = require('cors');
 dotenv.config();
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://thegabenzone.github.io'],
+  origin: ['http://localhost:3000', 'https://Piscuss123.github.io'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
