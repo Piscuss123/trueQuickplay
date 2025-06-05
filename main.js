@@ -3,7 +3,7 @@ const cors = import('./cors');
 const dotenv = import('./dotenv');
 const axios = import('./axios');
 // Add this near the top of your file
-const path = import('./path');
+const path = process.env.PATH;
 const { queryGameServerInfo } = import('steam-server-query');
 const net = import('./net');
 const { promisify } = import('./util');
