@@ -1,13 +1,13 @@
-const express = import('express');
-const cors = import('cors');
+const express = import('./express');
+const cors = import('./cors');
 const dotenv = import('./dotenv');
 const axios = import('./axios');
 // Add this near the top of your file
 const path = import('./path');
 const { queryGameServerInfo } = import('steam-server-query');
-const net = import('net');
-const { promisify } = import('util');
-const ping = import('ping');
+const net = import('./net');
+const { promisify } = import('./util');
+const ping = import('./ping');
 	
 const app = express();
 const PORT = process.env.PORT || 5000;
