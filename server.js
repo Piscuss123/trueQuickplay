@@ -1,3 +1,12 @@
+const cors = require('cors');
+
+dotenv.config();
+
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://thegabenzone.github.io'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 
  fetch('https://api.steampowered.com/IGameServersService/GetServerList/v1/?key=72452A9717D5F298689C805539FFFFA4')
      .then(response => {
